@@ -110,12 +110,12 @@ Ensure you have the following installed on your system:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/fitness-app.git
+   git clone https://github.com/khush-1629/my-gym-project.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd fitness-app
+   cd my-gym-project
    ```
 
 3. Install dependencies:
@@ -175,16 +175,14 @@ Contributions are welcome! To contribute:
    ```
 5. Submit a pull request.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
 For any questions or feedback, feel free to reach out:
 
-- **Email**: support@fitnessapp.com
-- **GitHub**: [Fitness App Repository](https://github.com/your-username/fitness-app)
+  
+- **GitHub**: [my-gym-project Repository](https://github.com/khush-1629/my-gym-project.git)
 
 ---
 
