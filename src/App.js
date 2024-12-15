@@ -6,7 +6,10 @@ import WelcomeScreen from "./Pages/WelcomeScreen";
 import LogActivity from "./Pages/LogActivity";
 import MyStats from "./Pages/MyStats";
 import History from "./Pages/History";
-import AppProvider from "./Context/AppContext";
+import AppProvider from "../Context/AppContext";
+import LoginPage from './components/LoginPage';
+import CalculatorPage from './components/CalculatorPage';
+
 import "./App.css";
 
 const App = () => (
@@ -18,10 +21,13 @@ const App = () => (
         <Route path="/log" element={<LogActivity />} />
         <Route path="/stats" element={<MyStats />} />
         <Route path="/history" element={<History />} />
+        <Route  path="/" element={<LoginPage/>} />
+        <Route path="/calculator" element={<CalculatorPage/>} />
       </Routes>
       <Footer />
     </Router>
   </AppProvider>
 );
+
 
 export default App;
