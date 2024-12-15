@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/khush-1629/my-gym-project.git/static/css/main.d624691c.css",
+    "main.js": "/khush-1629/my-gym-project.git/static/js/main.0119fcf3.js",
+    "static/js/453.d2685841.chunk.js": "/khush-1629/my-gym-project.git/static/js/453.d2685841.chunk.js",
+    "index.html": "/khush-1629/my-gym-project.git/index.html",
+    "main.d624691c.css.map": "/khush-1629/my-gym-project.git/static/css/main.d624691c.css.map",
+    "main.0119fcf3.js.map": "/khush-1629/my-gym-project.git/static/js/main.0119fcf3.js.map",
+    "453.d2685841.chunk.js.map": "/khush-1629/my-gym-project.git/static/js/453.d2685841.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d624691c.css",
+    "static/js/main.0119fcf3.js"
+  ]
+}
