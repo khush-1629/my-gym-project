@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => (
   <header>
-    <h1>ActFour Fitness</h1>
+    <h1>The GYM FitPro</h1>
   </header>
 );
 

@@ -1,9 +1,19 @@
 import React, { useContext } from "react";
 import CircularProgress from "../components/CircularProgress";
-import { AppContext } from "../Context/AppContext";
+
+import { AuthContext } from "../Context/AuthContext";
 
 const WelcomeScreen = () => {
-  const { activities, userStats } = useContext(AppContext);
+  const { user } = useContext(AuthContext);
+
+  if (!user) {
+    return <p>Please log in to access this page.</p>;
+  }
+
+  const activities = [
+    { name: "Running", calories: 300 },
+    { name: "Cycling", calories: 200 },
+  ];
   const totalCalories = activities.reduce((sum, activity) => sum + activity.calories, 0);
 
   return (

@@ -6,14 +6,15 @@ import WelcomeScreen from "./Pages/WelcomeScreen";
 import LogActivity from "./Pages/LogActivity";
 import MyStats from "./Pages/MyStats";
 import History from "./Pages/History";
-import AppProvider from "../Context/AppContext";
-import LoginPage from './components/LoginPage';
-import CalculatorPage from './components/CalculatorPage';
+
+import { AuthProvider } from "./Context/AuthContext";
+import LoginScreen from "./Pages/LoginScreen";
+
 
 import "./App.css";
 
 const App = () => (
-  <AppProvider>
+  <AuthProvider>
     <Router>
       <Header />
       <Routes>
@@ -21,12 +22,12 @@ const App = () => (
         <Route path="/log" element={<LogActivity />} />
         <Route path="/stats" element={<MyStats />} />
         <Route path="/history" element={<History />} />
-        <Route  path="/" element={<LoginPage/>} />
-        <Route path="/calculator" element={<CalculatorPage/>} />
+        <Route path="/" element={<LoginScreen />} />
+        
       </Routes>
       <Footer />
     </Router>
-  </AppProvider>
+  </AuthProvider>
 );
 
 

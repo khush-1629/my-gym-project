@@ -7,7 +7,7 @@ body {
 header, footer {
   text-align: center;
   padding: 1em;
-  background-color: #f4f4f4;
+  background-color: rgb(223, 147, 223);
 }
 
 main {
@@ -33,7 +33,7 @@ ul {
 }
 
 li {
-  background: #f9f9f9;
+  background:rgb(156, 106, 156);
   margin: 0.5em 0;
   padding: 0.5em;
   border-radius: 5px;
@@ -42,7 +42,7 @@ li {
 
 @media (max-width: 768px) {
   body {
-    font-size: 90%;
+    font-size: 50%;
   }
 
   header, footer {
